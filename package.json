@@ -1,6 +1,6 @@
 {
-  "homepage": "https://aman2222kumar.github.io/node-connector",
   "name": "frontend",
+  "homepage": "https://aman2222kumar.github.io/node-connector",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
