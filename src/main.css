@@ -1,0 +1,100 @@
+.baseNodeContainer {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  transition: all 0.2s;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: -moz-max-content;
+  height: max-content;
+}
+.baseNodeContainer:hover {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.4rem rgba(132, 145, 229, 0.3);
+}
+.baseNodeContainer .header_menu {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+.baseNodeContainer .header_menu .close_btn {
+  border-radius: 50% 50%;
+  background-color: black;
+  color: white;
+  transition: all 0.5s;
+  font-size: 0.5rem;
+}
+.baseNodeContainer .header_menu .close_btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(4, 3, 3);
+  cursor: pointer;
+}
+.baseNodeContainer .content {
+  display: grid;
+  grid-template-columns: 1fr; /* Adjust columns width ratio as needed */
+  gap: 0.5rem; /* Space between columns */
+  margin-bottom: 1rem; /* Space between rows */
+}
+.baseNodeContainer .content label {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start; /* Center items vertically */
+  gap: 0.5rem; /* Space between label text and input/select */
+}
+.baseNodeContainer .content input,
+.baseNodeContainer .content select {
+  width: 100%; /* Ensure fields take up available space */
+}
+.baseNodeContainer .textNode {
+  border: 0.1rem solid rgb(166, 170, 233);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start; /* Center items vertically */
+  gap: 0.5rem; /* Space between label text and input/select */
+}
+.baseNodeContainer textarea {
+  border-radius: 0.2rem;
+  width: 98%;
+  border: none;
+  box-sizing: unset !important;
+  border-right: 0.1rem solid rgb(166, 170, 233);
+}
+.baseNodeContainer textarea:focus {
+  border-right: 0.1rem solid rgb(166, 170, 233);
+  outline: none;
+}
+.baseNodeContainer input {
+  border-radius: 0.2rem;
+  border: none;
+}
+.baseNodeContainer input:focus {
+  border-right: 0.1rem solid rgb(166, 170, 233);
+  outline: none;
+}
+.baseNodeContainer .handleContainer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  align-items: center;
+  height: 14rem;
+}
+
+.llmNodeContainer {
+  width: 200;
+  height: 80;
+  border: 1px solid black;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  transition: all 0.2s;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+}
+.llmNodeContainer:hover {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.4rem rgba(132, 145, 229, 0.3);
+}/*# sourceMappingURL=main.css.map */
